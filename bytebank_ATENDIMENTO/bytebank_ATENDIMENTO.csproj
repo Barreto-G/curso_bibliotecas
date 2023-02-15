@@ -7,4 +7,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\bytebank_Modelos\bytebank_Modelos.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GeradorChavePix">
+      <HintPath>..\..\GeradorChavePix\GeradorChavePix\bin\Debug\net6.0\GeradorChavePix.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
